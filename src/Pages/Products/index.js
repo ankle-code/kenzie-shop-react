@@ -1,4 +1,4 @@
-import Product from "../Product";
+import Product from "../../Components/Product";
 import { ProductsContainer } from "./style";
 import { useSelector } from "react-redux";
 

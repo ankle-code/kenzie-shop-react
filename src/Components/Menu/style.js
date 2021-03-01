@@ -27,6 +27,7 @@ export const LinkMenu = styled.a`
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 
   &:hover {
     color: #05dbf2;

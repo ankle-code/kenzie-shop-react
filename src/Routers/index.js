@@ -1,9 +1,9 @@
 import { Switch, Route } from "react-router-dom";
 import Cart from "../Pages/Cart";
 import Home from "../Pages/Home";
-import Product from "../Pages/Product";
+import Product from "../Components/Product";
 import Products from "../Pages/Products";
-import Purchase from "../Pages/Purchase";
+import Details from "../Pages/Details";
 
 const Routers = () => {
   return (
@@ -20,8 +20,8 @@ const Routers = () => {
       <Route exact path="/products">
         <Products />
       </Route>
-      <Route exact path="/purchase">
-        <Purchase />
+      <Route exact path="/details/:id">
+        <Details />
       </Route>
     </Switch>
   );
