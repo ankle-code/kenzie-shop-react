@@ -1,12 +1,7 @@
-import { HomeContainer } from "./style";
 import Banner from "../../Components/Banner";
 
 const Home = () => {
-  return (
-    <HomeContainer>
-      <Banner />
-    </HomeContainer>
-  );
+  return <Banner />;
 };
 
 export default Home;

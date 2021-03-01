@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProductWraper = styled.div`
-  width: 250px;
+  width: 26.5%;
   border: 1px solid #bbb;
   margin: 20px;
   padding: 20px;
@@ -9,6 +9,9 @@ export const ProductWraper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
 `;
 
 export const ProductTitle = styled.h1`
@@ -20,7 +23,7 @@ export const ProductImage = styled.img`
 `;
 
 export const ProductButton = styled.button`
-  background-color: ${(props) => (props.isRemovable ? "red" : "#6af21b")};
+  background-color: ${(props) => (props.isRemovable ? "#fc2003" : "#05dbf2")};
   outline: none;
   border: 0;
   color: #fff;

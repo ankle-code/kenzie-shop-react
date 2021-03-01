@@ -9,7 +9,7 @@ export const MenuContainer = styled.div`
   top: 0%;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 1px 5px 1px rgba(5, 219, 242, 0.17);
 `;
 
 export const MenuWrap = styled.div`

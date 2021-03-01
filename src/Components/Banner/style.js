@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
   background-image: url(${(props) => props.illustrationImage});
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 90vw;
+  width: 100vw;
   max-width: 900px;
   height: 600px;
+  margin-top: 150px;
 `;
 
 export const BannerWrap = styled.div`
